@@ -1,0 +1,15 @@
+
+// one way to create comment
+alert("Welcome to Chintan's Webpage");
+/*
+another way
+*/
+
+function openMenu() {
+    var x = document.getElementById("portfolioTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
